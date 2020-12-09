@@ -1,0 +1,36 @@
+{
+  "rules": {
+    "doctors": {
+      "$doctor_id": {
+        ".write": "$doctor_id === auth.uid"
+      },
+      ".read":"auth.uid != null"
+    },
+    "patients":{
+      ".write":"auth.uid != null",
+      ".read":"auth.uid != null"
+    },
+    "appointments":{
+      ".write":"auth.uid != null",
+      ".read":"auth.uid != null"
+    },
+    "bloodPressure": {
+      "$patient_id": {
+        ".write": "$patient_id === auth.uid"
+      },
+      ".read":"auth.uid != null"
+    },
+    "heartRate": {
+      "$patient_id": {
+        ".write": "$patient_id === auth.uid"
+      },
+      ".read":"auth.uid != null"
+    },
+    "stepCount": {
+      "$patient_id": {
+        ".write": "$patient_id === auth.uid"
+      },
+      ".read":"auth.uid != null"
+    }
+  }
+}

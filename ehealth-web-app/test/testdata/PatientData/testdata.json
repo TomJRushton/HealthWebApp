@@ -1,0 +1,74 @@
+{
+  "1571270400000": {
+    "average": 76.08268737792969,
+    "max": 159.6768798828125,
+    "min": 60,
+    "patientId": "patient-1",
+    "timestamp": {
+      "date": 17,
+      "day": 4,
+      "hours": 1,
+      "minutes": 0,
+      "month": 9,
+      "seconds": 0,
+      "time": 1571270400000,
+      "timezoneOffset": -60,
+      "year": 119
+    },
+    "type": "heartRate"
+  },
+  "1571356800000": {
+    "average": 79.34822082519531,
+    "max": 122.46177673339844,
+    "min": 58.777976989746094,
+    "patientId": "patient-1",
+    "timestamp": {
+      "date": 18,
+      "day": 5,
+      "hours": 1,
+      "minutes": 0,
+      "month": 9,
+      "seconds": 0,
+      "time": 1571356800000,
+      "timezoneOffset": -60,
+      "year": 119
+    },
+    "type": "heartRate"
+  },
+  "1571443200000": {
+    "average": 100.99237060546875,
+    "max": 147.34408569335938,
+    "min": 58.41875076293945,
+    "patientId": "patient-1",
+    "timestamp": {
+      "date": 19,
+      "day": 6,
+      "hours": 1,
+      "minutes": 0,
+      "month": 9,
+      "seconds": 0,
+      "time": 1571443200000,
+      "timezoneOffset": -60,
+      "year": 119
+    },
+    "type": "heartRate"
+  },
+  "1571529600000": {
+    "average": 83.33203125,
+    "max": 167.35980224609375,
+    "min": 58.664100646972656,
+    "patientId": "patient-1",
+    "timestamp": {
+      "date": 20,
+      "day": 0,
+      "hours": 1,
+      "minutes": 0,
+      "month": 9,
+      "seconds": 0,
+      "time": 1571529600000,
+      "timezoneOffset": -60,
+      "year": 119
+    },
+    "type": "heartRate"
+  }
+}
